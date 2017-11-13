@@ -1,26 +1,39 @@
 body {
 	font-family: 'Montserrat';
-	background-color: #E1F5F2;
+	background-color: #FCFEFE;
 }
 
-h1 {
-	text-align:center;
-}
 
-h2 {
-	font-family: 'Sansita';
-	font-size: 50px;
+h1, h2 {
+	font-family: 'Unica One';
+	font-size: 80px;
 	text-align:center;
+	color: #F76B8A;
 }
 
 .avatar {
 	display: block;
-    margin-left: 250px;
+    margin: 0 auto;
+	height: 360px;
+	width: 500px;
+
+    padding: 10px;
+    box-shadow: 0px 0px 10px #CCCCCC;
 	
 }
 
-.aboutMe {
-	text-align:right;
+.description {
+	text-align:center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.jumbotron {
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	background-color: #EAF6F6;
+	border-radius: .3rem;
+
 }
 
 .sidenav {
@@ -31,24 +44,24 @@ h2 {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #390050;
+    background-color: #66BFBF;
     overflow-x: hidden;
 	transition: 0.5s;
     padding-top: 60px;
-	font-family: 'Sansita';
+	font-family: 'Unica One';
 }
 
 .sidenav a {
     padding: 10px 10px 10px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #6BC5D2;
+    color: #EAF6F6;
     display: block;
 	transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #5A5D9D;
+    color: #F76B8A;
 }
 
 .sidenav .closebtn {
@@ -58,6 +71,7 @@ h2 {
 	font-size: 36px;
 	margin-left: 50px;
 }
+
 
 #main {
     transition: margin-left .5s;
