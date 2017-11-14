@@ -30,6 +30,12 @@ h1, h2 {
 	padding-bottom: 50px;
 }
 
+.edu-details {
+	text-align: left;
+	margin-left: 300px;
+
+}
+
 .jumbotron {
 	padding: 2rem 1rem;
 	margin-bottom: 2rem;
@@ -74,6 +80,11 @@ h1, h2 {
 	margin-left: 50px;
 }
 
+.ryelogo {
+	height: 200px;
+	width: 400px;
+	margin-left: 300px;
+}
 
 #main {
     transition: margin-left .5s;
