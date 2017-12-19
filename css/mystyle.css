@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Montserrat';
 	background-color: #FCFEFE;
@@ -36,10 +37,6 @@ h1, h2 {
 	background-color: #EAF6F6;
 	border-radius: .3rem;
 
-}
-
-.projects {
-	margin-left: 200px;
 }
 
 .sidenav {
@@ -93,3 +90,4 @@ h1, h2 {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 }
+
