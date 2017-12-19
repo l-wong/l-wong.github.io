@@ -75,7 +75,22 @@ h1, h2 {
 	margin-left: 50px;
 }
 
-
+.ryelogo {
+	height: 200px;
+	width: 400px;
+	margin-left: 300px;
+ }
+ 
+ .projects {
+	 margin-left: 200px;
+ }
+ 
+ .edu-details {
+	 text-align: left;
+	 margin-left: 300px;
+	 
+ }
+ 
 #main {
     transition: margin-left .5s;
 	padding: 16px;
