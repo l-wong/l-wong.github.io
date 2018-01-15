@@ -1,4 +1,8 @@
+* {
+	
+	margin: 0;
 
+}
 body {
 	font-family: 'Montserrat';
 	background-color: #FCFEFE;
@@ -10,6 +14,32 @@ h1, h2 {
 	font-size: 80px;
 	text-align:center;
 	color:#4B4A5A;
+}
+
+.row, .column {
+	box-sizing: border-box;
+}
+
+.row:before, .row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+}
+
+.column + .column {
+	margin-left: 1.6%;
+}
+
+.column-4 {
+	width: 32.2666666667%;
 }
 
 .nav-bar ul {
@@ -43,7 +73,7 @@ h1, h2 {
 
 
 .home {
-	height: 600px;
+	height: 620px;
 	padding: 2rem 1rem;
 	margin-bottom: 2rem;
 	background-color: #F3F6F6;
@@ -56,7 +86,7 @@ h1, h2 {
 .ryelogo {
 	height: 200px;
 	width: 400px;
-	margin-left: 300px;
+	margin-left: 100px;
  }
  
  .projects {
@@ -89,5 +119,11 @@ h1, h2 {
 
 .social-icons {
 	text-align: center;
+	padding-top: 40px;
 	
+}
+
+.incomplete-courses {
+	text-align: right;
+	padding-right: 200px;
 }
