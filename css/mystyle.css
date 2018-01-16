@@ -38,6 +38,14 @@ h1, h2 {
 	margin-left: 1.6%;
 }
 
+.column-2 {
+	width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
 .column-4 {
 	width: 32.2666666667%;
 }
@@ -119,11 +127,26 @@ h1, h2 {
 
 .social-icons {
 	text-align: center;
-	padding-top: 40px;
-	
+	padding-bottom: 20px;
 }
 
-.incomplete-courses {
-	text-align: right;
-	padding-right: 200px;
+.social-icons img {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.experience {
+	background-color: #F3F6F6;
+
+}
+
+.wicslogo {
+	height: 150px;
+	width: 300px;
+	margin-left: 100px;
+
+}
+
+.tlnlogo {
+	height: 150px;
+	width: 100px;
 }
