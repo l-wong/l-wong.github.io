@@ -116,6 +116,10 @@ section {
     }
 }
 
+ol, ul {
+	list-style: none;
+}
+
 .nav-bar ul {
 
 	list-style-type: none;
