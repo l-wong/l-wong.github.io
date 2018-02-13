@@ -58,7 +58,6 @@ h1, h2 {
 	width: 100%;
     overflow: hidden;
     background-color: #4B4A5A;
-	position: fixed;
 	
 }
 
@@ -83,7 +82,6 @@ h1, h2 {
 	text-shadow: 0px 0px 3px #111;
 
 }
-
 
 
 .home {
