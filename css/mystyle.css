@@ -256,11 +256,10 @@ h1, h2 {
 }
 
 
-
 .list {
   position: absolute;
-    width: 240px;
-    height: 280px;
+    width: 340px;
+    height: 380px;
     top: 60px;
     left: 80px;
     background: #FFFFFF;
