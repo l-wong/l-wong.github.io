@@ -55,8 +55,10 @@ h1, h2 {
 	list-style-type: none;
     margin: 0;
     padding: 0;
+	width: 100%;
     overflow: hidden;
     background-color: #4B4A5A;
+	position: fixed;
 	
 }
 
@@ -70,12 +72,16 @@ h1, h2 {
     color: white;
     text-align: center;
     padding: 14px 16px;
+	
     text-decoration: none;
+	transition: all 0.3s;
+
 }
 
 .nav-bar li a:hover {
 	color: #141829;
-	background-color: #fff;
+	text-shadow: 0px 0px 3px #111;
+
 }
 
 
@@ -160,4 +166,35 @@ h1, h2 {
 .tlnlogo {
 	height: 125px;
 	width: 100px;
+}
+
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(21, end),
+    blink-caret .5s step-end infinite;
+}
+
+.typewriter {
+	display: inline-flex;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.mytitle {
+	text-align: center;
 }
