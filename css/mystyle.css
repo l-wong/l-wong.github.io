@@ -164,7 +164,6 @@ ol, ul {
 .ryelogo {
 	height: 200px;
 	width: 400px;
-	margin-left: 100px;
  }
  
  .projects {
@@ -180,7 +179,6 @@ ol, ul {
  .avatar {
  
  	display: block;
-    margin: 0 auto;
 	height: 220px;
 	width: 220px;
 	border-radius: 50%;
@@ -274,7 +272,7 @@ ol, ul {
 	position: relative;
     padding: 7px 15px 7px 50px;
     line-height: 21px;
-    font-size: 12px;
+    font-size: 20px;
     color: #8b8f97;
 	text-align:center;
 	
