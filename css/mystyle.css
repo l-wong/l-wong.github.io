@@ -20,6 +20,12 @@ section {
   padding: 100px 0;
 }
 
+.section-title {
+	font-family: 'Unica One';
+	font-size 80px;
+	color:#4B4A5A;
+}
+
 .row, .column {
 	box-sizing: border-box;
 }
