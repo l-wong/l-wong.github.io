@@ -273,7 +273,15 @@ ol, ul {
 }
 
 /* course list */
-
+.list-title {
+	
+	position: relative;
+    padding: 7px 15px 7px 50px;
+    line-height: 21px;
+    font-size: 12px;
+    color: #8b8f97;
+	
+}
 .todo {
     position: relative;
     width: 360px;
