@@ -16,6 +16,10 @@ h1, h2 {
 	color:#4B4A5A;
 }
 
+section {
+  padding: 100px 0;
+}
+
 .row, .column {
 	box-sizing: border-box;
 }
