@@ -269,25 +269,20 @@ h1, h2 {
     box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.10);
     border-radius: 3px;
     
-    .head {
+    .list-head {
         padding: 20px 0;
         margin: 0 30px;
         border-bottom: 1px solid #D4DCE0;
     }
     
-    .title {
+    .list-title {
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
         text-align: center;
     }
     
-    .subtitle {
-        font-size: 12px;
-        line-height: 18px;
-        text-align: center;
-    }
-    
+
     ul {
         list-style: none;
         padding: 4px 0;
