@@ -268,7 +268,8 @@ h1, h2 {
     background: #FFFFFF;
     box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.10);
     border-radius: 3px;
-    
+}
+   
     .list-head {
         padding: 20px 0;
         margin: 0 30px;
