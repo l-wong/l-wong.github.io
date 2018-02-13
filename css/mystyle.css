@@ -272,10 +272,11 @@ ol, ul {
 	width: 400px;
 }
 
+/* course list */
 
 .todo {
     position: relative;
-    width: 260px;
+    width: 360px;
     margin: 0 auto;
     padding: 12px 0;
     background: #fff;
