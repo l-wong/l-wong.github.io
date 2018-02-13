@@ -306,7 +306,7 @@ section {
             transition: all .3s ease-in-out; 
         }
 		
-		 .button {
+		        .button {
             position: relative;
             z-index: 2;
             box-sizing: border-box;
@@ -348,8 +348,9 @@ section {
                 stroke-dashoffset: 0;
                 transition: all .5s ease-out .4s;
             }
-            
-        }
+		
+
         
-        
+    }
+    
     
