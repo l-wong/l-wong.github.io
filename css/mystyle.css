@@ -159,6 +159,12 @@ ol, ul {
 
 }
 
+.home img {
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+	width: 50%;
+}
 
 
 .ryelogo {
@@ -223,7 +229,7 @@ ol, ul {
 	font-size: 15px;
 }
 
-.experience h3, h4 {
+.experience h3, h4, img {
 	padding-left: 80px;
 }
 
