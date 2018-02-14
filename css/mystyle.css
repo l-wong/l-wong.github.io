@@ -163,7 +163,7 @@ ol, ul {
 	display: block;
 	padding-left: auto;
 	padding-right: auto;
-	width: 50%;
+	
 }
 
 
@@ -175,12 +175,7 @@ ol, ul {
  .projects {
 	 margin-left: 200px;
  }
- 
- .edu-details {
-	 text-align: left;
-	 margin-left: 300px;
-	 
- }
+
  
  .avatar {
  
@@ -241,7 +236,6 @@ ol, ul {
 .wicslogo {
 	height: 110px;
 	width: 240px;
-	margin-left: 100px;
 
 }
 
