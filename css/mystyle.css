@@ -23,6 +23,13 @@ section {
 ol, ul {
 	list-style: none;
 }
+.nav-bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  }
 
 .nav-bar ul {
 
@@ -182,157 +189,6 @@ ol, ul {
 	width: 400px;
 }
 
-/* course list */
-.list-title {
-	
-	position: relative;
-    padding: 7px 15px 7px 50px;
-    line-height: 21px;
-    font-size: 20px;
-    color: red;
-	text-align:center;
-	
-}
-.todo {
-    position: relative;
-    width: 360px;
-    margin: 0 auto;
-    padding: 12px 0;
-    background: #fff;
-    border: 1px solid;
-    border-color: #dfdcdc #d9d6d6 #ccc;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.todo:before, .todo:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    height: 4px;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-}
-
-.todo:after {
-    left: 0;
-    right: 0;
-    bottom: -3px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.todo:before {
-    left: 2px;
-    right: 2px;
-    bottom: -5px;
-    border-color: #c4c4c4;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-}
-
-.lt-ie9 .todo:before, .lt-ie9 .todo:after {
-    height: 1px;
-    border-top: 0;
-}
-
-.todo-list { border-top: 1px solid #e6ebed }
-
-.todo-list:before {
-    content: '';
-    width: 3px;
-    z-index: 2;
-    border: 1px solid #f2e3df;
-    border-width: 0 1px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 35px;
-}
-
-.todo-list li {
-    position: relative;
-    padding: 7px 15px 7px 50px;
-    line-height: 21px;
-    font-size: 12px;
-    color: #8b8f97;
-    border-bottom: 1px solid #e6ebed;
-}
-
-input[type=checkbox] {
-	display: none;
-}
-
-input[type=checkbox]:checked + .toggle:after{
-	opacity: 1;
-}
-
-.todo-list .toggle {
-    display: block;
-	height: 35px;
-	width: 35px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    text-indent: 100%;
-    overflow: hidden;
-	cursor: pointer;
-}
-
-.toggle:after {
-	content: '';
-	position: absolute;
-	position: absolute;
-	width: 7px;
-	height: 3px;
-	background: transparent;
-	top: 14px;
-	left: 13px;
-	border: 2px solid #aaa;
-	border-top: none;
-	border-right: none;
-
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	opacity: 0;
-}
-
-.todo-list .toggle:before {
-    content: '';
-    width: 15px;
-    height: 15px;
-    background: #faf9f9;
-    border: 1px solid #6bb3ca;
-    border-radius: 2px;
-    position: absolute;
-    top: 9px;
-    left: 9px;
-    -webkit-box-shadow: 0 1px 1px #dfecf4;
-    -moz-box-shadow: 0 1px 1px #dfecf4;
-    box-shadow: 0 1px 1px #dfecf4;
-}
-
-.todo-list .toggle:hover:before {
-    -webkit-box-shadow: 0 0 3px #6bb3ca;
-    -moz-box-shadow: 0 0 3px #6bb3ca;
-    box-shadow: 0 0 3px #6bb3ca;
-}
-
-.todo-list .done .toggle:before, .todo-list .toggle:active:before {
-    border-color: #c0c0c0 #ccc #d8d8d8;
-    -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 0 5px 5px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 0 5px 5px rgba(0, 0, 0, 0.05);
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 0 5px 5px rgba(0, 0, 0, 0.05);
-}
 
 .experience{
 	background-color: #F3F6F6;
@@ -340,6 +196,26 @@ input[type=checkbox]:checked + .toggle:after{
 .home-wrapper {
 	display: grid;
 	grid-template-rows: 250px 150px 250px;
+	grid-template-columns: 350px 490px 490px 350px;
+}
+
+.profile-pic {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	padding-top: 25px;
+}
+
+.mytitle {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	padding-top: 40px;
+	padding-left: 300px;
+}
+
+.about-me {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	padding-left: 240px;
 }
 
 .education-wrapper {
