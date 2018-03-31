@@ -20,98 +20,6 @@ section {
 }
 
 
-.row, .column {
-	box-sizing: border-box;
-}
-
-.row:before, .row:after {
-	content: " ";
-	display: table;
-}
-
-.row:after {
-	clear: both;
-}
-
-.column {
-	position: relative;
-	float: left;
-}
-
-.column + .column {
-	padding-left: 1.6%;
-}
-
-.column-1 {
-	width: 6.86666666667%;
-}
-
-.column-2 {
-	width: 15.3333333333%;
-}
-
-.column-3 {
-    width: 23.8%;
-}
-
-.column-4 {
-	width: 32.2666666667%;
-}
-
-.column-5 {
-    width: 40.7333333333%;
-}
-
-.column-6 {
-    width: 49.2%;
-}
-
-.column-7 {
-    width: 57.6666666667%;
-}
-
-.column-8 {
-    width: 66.1333333333%;
-}
-
-.column-9 {
-    width: 74.6%;
-}
-
-.column-10 {
-    width: 83.0666666667%;
-}
-
-.column-11 {
-    width: 91.5333333333%;
-}
-
-.column-12 {
-    width: 100%;
-}
-
-@media only screen and (max-width: 550px) {
-    .column-1, 
-    .column-2, 
-    .column-3, 
-    .column-4, 
-    .column-5, 
-    .column-6, 
-    .column-7, 
-    .column-8, 
-    .column-9, 
-    .column-10, 
-    .column-11, 
-    .column-12 {
-        width: auto;
-        float: none;
-    }
-
-    .column + .column {
-        margin-left: 0;
-    }
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -154,8 +62,8 @@ ol, ul {
 	height: 620px;
 	padding: 2rem 1rem;
 	margin-bottom: 2rem;
-	background-color: #F3F6F6;
 	border-radius: .3rem;
+	background-color: #F3F6F6;
 
 }
 
@@ -176,7 +84,6 @@ ol, ul {
 	 margin-left: 200px;
  }
 
- 
  .avatar {
  
  	display: block;
@@ -188,7 +95,7 @@ ol, ul {
  
  }
  
-.about-me {
+.about-me p{
  padding-left: 400px;
  padding-right: 400px;
  
@@ -213,11 +120,6 @@ ol, ul {
 	text-shadow: 0px 0px 3px #111;
 }
 
-.experience {
-	background-color: #F3F6F6;
-	
-
-}
 
 .experience p {
 	padding-left:80px;
@@ -432,12 +334,26 @@ input[type=checkbox]:checked + .toggle:after{
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
+.experience{
+	background-color: #F3F6F6;
+}
+.home-wrapper {
+	display: grid;
+	grid-template-rows: 250px 150px 250px;
+}
+
+.education-wrapper {
+	display: grid;
+	grid-template-columns: 650px 450px;
+
+}
 .experience-wrapper {
 	display: grid;
-	grid-template-columns: 450px 400px 400px;
+	grid-template-columns: 450px 400px 300px;
 	grid-template-rows: 300px 100px;
 }
 
 .experience-wrapper p, h3 {
 	padding-top: 20px;
 }
+   
