@@ -6,6 +6,7 @@
 body {
 	font-family: 'Montserrat';
 	background-color: #FCFEFE;
+	
 }
 
 
@@ -15,14 +16,10 @@ h1, h2 {
 	color:#4B4A5A;
 }
 
-section {
-  padding: 100px 0;
-}
-
-
 ol, ul {
 	list-style: none;
 }
+
 .nav-bar {
   position: fixed;
   right: 0;
@@ -44,8 +41,12 @@ ol, ul {
 
 .nav-bar li {
 	float: right;
+	padding-top: .455rem;
+	padding-right: .75rem;
 	
 }
+
+
 
 .nav-bar li a {
 	display: block;
@@ -58,38 +59,18 @@ ol, ul {
 
 }
 
+
 .nav-bar li a:hover {
-	color: #141829;
+	color: #43e8d8;
 	text-shadow: 0px 0px 3px #111;
 
 }
-
-
-.home {
-	height: 620px;
-	padding: 2rem 1rem;
-	margin-bottom: 2rem;
-	border-radius: .3rem;
-	background-color: #F3F6F6;
-
-}
-
-.home img {
-	display: block;
-	padding-left: auto;
-	padding-right: auto;
-	
-}
-
 
 .ryelogo {
 	height: 200px;
 	width: 400px;
  }
  
- .projects {
-	 margin-left: 200px;
- }
 
  .avatar {
  
@@ -99,12 +80,6 @@ ol, ul {
 	border-radius: 50%;
     padding: 10px;
     box-shadow: 0px 0px 10px #CCCCCC;
- 
- }
- 
-.about-me p{
- padding-left: 400px;
- padding-right: 400px;
  
  }
 
@@ -127,21 +102,6 @@ ol, ul {
 	text-shadow: 0px 0px 3px #111;
 }
 
-
-.experience p {
-	padding-left:80px;
-	font-size: 15px;
-}
-
-.experience h3, h4, img {
-	padding-left: 80px;
-}
-
-.education {
-	padding-left: 80px;
-}
-
-
 .wicslogo {
 	height: 110px;
 	width: 240px;
@@ -153,83 +113,40 @@ ol, ul {
 	width: 100px;
 }
 
-.typewriter h1{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(21, end),
-    blink-caret .5s step-end infinite;
-}
-
-.typewriter {
-	display: inline-flex;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
-}
 
 .mytitle {
 	text-align: center;
+	padding-bottom: 45px;
 }
-
-.container {
-	margin: 50px auto;
-	width: 400px;
-}
-
 
 .experience{
 	background-color: #F3F6F6;
 }
-.home-wrapper {
-	display: grid;
-	grid-template-rows: 250px 150px 250px;
-	grid-template-columns: 350px 490px 490px 350px;
-}
+
 
 .profile-pic {
-	grid-column-start: 3;
-	grid-column-end: 5;
-	padding-top: 25px;
-}
+	padding-top: 35px;
+	padding-bottom: 45px;
 
-.mytitle {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	padding-top: 40px;
-	padding-left: 300px;
 }
 
 .about-me {
-	grid-column-start: 1;
-	grid-column-end: 5;
-	padding-left: 240px;
+	padding-bottom: 45px;
 }
 
-.education-wrapper {
-	display: grid;
-	grid-template-columns: 650px 450px;
-
-}
-.experience-wrapper {
-	display: grid;
-	grid-template-columns: 450px 400px 300px;
-	grid-template-rows: 300px 100px;
+.contact-btn {
+  background-color: #43e8d8;
+  color: #FFFF;
+  padding: 12px 36px;
+  text-transform: uppercase;
 }
 
-.experience-wrapper p, h3 {
-	padding-top: 20px;
+.contact-btn + .contact-btn {
+	margin-left: 6px;
 }
-   
+
+.contact-btn.small {
+  font-family: 'Work Sans', helvetica, sans-serif;
+  font-size: 0.7rem;
+  padding: 9px 15px 8px;
+}
